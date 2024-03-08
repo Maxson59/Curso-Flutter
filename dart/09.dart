@@ -34,18 +34,3 @@ class changoEnemy extends Enemy {
     HP-=amount;
   }
 }
-
-class peneEnemy implements Enemy {
-  @override
-  double HP;
-
-  @override
-  factionList faction;
-
-  peneEnemy({required double this.HP, required this.faction})
-
- // @override
-  void takeDamage(double aaa){
-    print('aa');
-  }
-}
